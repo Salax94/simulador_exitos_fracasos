@@ -83,7 +83,7 @@ export const developerScenes = {
         "id": "developer_day_change",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Han pasado varios días desde tu llegada. Te vas acostumbrando al ritmo de los sprints y a las interminables tazas de café mientras depuras la arquitectura del proyecto...",
-        "autoTimer": { "duration": 6000, "target": "developer_2" },
+        "autoTimer": { "duration": 8000, "target": "developer_2" },
         "advanceDays": 5,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -138,7 +138,7 @@ export const developerScenes = {
         "id": "developer_transition_2",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "La presión aumenta. Cada línea de código escrita es un paso más hacia el lanzamiento mundial, pero también una oportunidad para que surjan nuevos desafíos técnicos...",
-        "autoTimer": { "duration": 6000, "target": "developer_3" },
+        "autoTimer": { "duration": 8000, "target": "developer_3" },
         "advanceDays": 10,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -192,7 +192,7 @@ export const developerScenes = {
         "id": "developer_transition_3",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "El proyecto evoluciona. Lo que antes eran bloques de código aislados ahora empiezan a formar un mundo coherente y vivo...",
-        "autoTimer": { "duration": 6000, "target": "developer_4" },
+        "autoTimer": { "duration": 7000, "target": "developer_4" },
         "advanceDays": 15,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -246,7 +246,7 @@ export const developerScenes = {
         "id": "developer_transition_4",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Se acerca una fecha de entrega crítica. Los ánimos en el estudio están caldeados y el cansancio empieza a pasar factura al equipo...",
-        "autoTimer": { "duration": 6000, "target": "developer_minigame_intro" },
+        "autoTimer": { "duration": 7000, "target": "developer_minigame_intro" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
@@ -309,7 +309,7 @@ export const developerScenes = {
         "id": "developer_transition_5",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Tras salvar el proyecto en el último segundo, el respeto por tu liderazgo técnico se ha disparado. Sin embargo, el desafío final se asoma en el horizonte...",
-        "autoTimer": { "duration": 6000, "target": "developer_5" },
+        "autoTimer": { "duration": 8000, "target": "developer_5" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -363,7 +363,7 @@ export const developerScenes = {
         "id": "developer_transition_6",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "El día del lanzamiento está a la vuelta de la esquina. La tensión es palpable en cada reunión, y los detalles finales se sienten como una montaña rusa emocional...",
-        "autoTimer": { "duration": 6000, "target": "developer_6" },
+        "autoTimer": { "duration": 8000, "target": "developer_6" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
@@ -417,7 +417,7 @@ export const developerScenes = {
         "id": "developer_transition_7",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Los últimos retoques. La build final está casi lista. Solo quedan los detalles que diferencian un buen juego de una obra maestra técnica...",
-        "autoTimer": { "duration": 6000, "target": "developer_7" },
+        "autoTimer": { "duration": 7000, "target": "developer_7" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
@@ -485,7 +485,7 @@ export const developerScenes = {
         "id": "developer_transition_8",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "¡LLEGÓ EL GRAN DÍA! Los servidores están encendidos, el equipo de marketing ha hecho su magia y el mundo está esperando a que tú des la orden de lanzamiento...",
-        "autoTimer": { "duration": 6000, "target": "developer_8" },
+        "autoTimer": { "duration": 8000, "target": "developer_8" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
@@ -561,7 +561,7 @@ export const developerScenes = {
         "id": "developer_post_launch",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Horas después del despliegue masivo. El estudio está en silencio, solo se escucha el murmullo de los ventiladores de los servidores y el cliqueo suave de los monitores de métricas...",
-        "autoTimer": { "duration": 7000, "target": "developer_final_verdict" },
+        "autoTimer": { "duration": 9000, "target": "developer_final_verdict" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"

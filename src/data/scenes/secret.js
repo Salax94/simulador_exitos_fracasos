@@ -4,7 +4,7 @@ export const secretScenes = {
         "background": "/assets/fondo_habitacion.png",
         "speaker": "Narrador",
         "text": "Algo no va bien... las pantallas parpadean con una estática que no debería estar aquí. La realidad del estudio parece fracturarse por un instante.",
-        "autoTimer": { "duration": 4000, "target": "secret_redirect" },
+        "autoTimer": { "duration": 6500, "target": "secret_redirect" },
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
     },
     "secret_redirect": {

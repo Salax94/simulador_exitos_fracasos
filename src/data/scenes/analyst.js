@@ -129,7 +129,7 @@ export const analystScenes = {
         "id": "analyst_transition_1",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Han pasado varias semanas. El flujo de información no descansa y ahora te enfrentas a un desafío económico que afecta a todos los jugadores...",
-        "autoTimer": { "duration": 6000, "target": "analyst_q3" },
+        "autoTimer": { "duration": 7000, "target": "analyst_q3" },
         "advanceDays": 15,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -267,7 +267,7 @@ export const analystScenes = {
         "id": "analyst_transition_2",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Pasan las semanas. El flujo de información es ahora gestionado por Yui, quien monitoriza cada movimiento de la economía mientras tú y Lee supervisáis sus proyecciones...",
-        "autoTimer": { "duration": 6000, "target": "analyst_q5" },
+        "autoTimer": { "duration": 8000, "target": "analyst_q5" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -367,7 +367,7 @@ export const analystScenes = {
         "id": "analyst_transition_3",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Ha pasado mucho tiempo. El juego es un fenómeno mundial y ahora te enfrentas al desafío final de tu carrera analítica...",
-        "autoTimer": { "duration": 6000, "target": "analyst_q7" },
+        "autoTimer": { "duration": 7000, "target": "analyst_q7" },
         "advanceDays": 60,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -505,7 +505,7 @@ export const analystScenes = {
         "id": "analyst_final_verdict_prep",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Consolidando métricas de éxito y proyecciones de rentabilidad global para el informe de la junta...",
-        "autoTimer": { "duration": 7000, "target": "analyst_final_verdict" },
+        "autoTimer": { "duration": 7500, "target": "analyst_final_verdict" },
         "advanceDays": 45,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"

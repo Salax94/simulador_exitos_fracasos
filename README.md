@@ -2,7 +2,7 @@
   <img src="./public/assets/readme/banner.png" alt="Professional Adventure Game Banner" width="800">
 </p>
 
-# <p align="center">✨ Professional Adventure Game ✨</p>
+# <p align="center">Professional Adventure Game</p>
 
 <p align="center">
   <strong>Un proyecto narrativo interactivo para el foro de la UNIR</strong>

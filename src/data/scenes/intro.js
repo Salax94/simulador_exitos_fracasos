@@ -168,7 +168,7 @@ export const introScenes = {
         "background": "/assets/fondo_habitacion.png",
         "hidePlayer": true,
         "text": "... Pasa una semana de nervios y espera, revisando el correo cada cinco minutos ...",
-        "autoTimer": { "duration": 5000, "target": "interview_offer" },
+        "autoTimer": { "duration": 5500, "target": "interview_offer" },
         "options": []
     },
 
@@ -344,7 +344,7 @@ export const introScenes = {
         "background": "/assets/fondo_compania.png",
         "hidePlayer": true,
         "text": "... El lunes amanece con un brillo diferente. Tu carrera profesional comienza aquí ...",
-        "autoTimer": { "duration": 5000, "target": "first_day_arrival" },
+        "autoTimer": { "duration": 5500, "target": "first_day_arrival" },
         "options": []
     },
 

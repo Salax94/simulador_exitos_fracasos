@@ -120,7 +120,7 @@ export const directorScenes = {
         "background": "/assets/fondo_tasa_cafe.png",
         "advanceDays": 30,
         "text": "Han pasado varias semanas de reuniones intensas y gestión de conflictos entre departamentos. El calendario empieza a pesar...",
-        "autoTimer": { "duration": 6000, "target": "director_q2" },
+        "autoTimer": { "duration": 7000, "target": "director_q2" },
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
     },
@@ -175,7 +175,7 @@ export const directorScenes = {
         "id": "director_transition_q3",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Un mes después... el ritmo de trabajo es frenético y los desafíos aparecen en cada rincón del proyecto.",
-        "autoTimer": { "duration": 5500, "target": "director_q3" },
+        "autoTimer": { "duration": 6500, "target": "director_q3" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -284,7 +284,7 @@ export const directorScenes = {
         "id": "director_transition_q4",
         "background": "/assets/fondo_habitacion.png",
         "text": "Las semanas finales son intensas. El cansancio se nota en cada rincón de la oficina...",
-        "autoTimer": { "duration": 5500, "target": "director_q4" },
+        "autoTimer": { "duration": 6000, "target": "director_q4" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -419,7 +419,7 @@ export const directorScenes = {
         "id": "director_transition_q5",
         "background": "/assets/fondo_compania.png",
         "text": "EL PROYECTO SE CONSOLIDA. Frank, el principal inversor, llega para evaluar el rendimiento a largo plazo.",
-        "autoTimer": { "duration": 4000, "target": "director_q5" },
+        "autoTimer": { "duration": 5000, "target": "director_q5" },
         "advanceDays": 50,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -475,7 +475,7 @@ export const directorScenes = {
         "id": "director_transition_q6",
         "background": "/assets/fondo_compania.png",
         "text": "Varias semanas después... las decisiones tomadas ante Frank han calado en la junta, pero el mercado tecnológico no espera a nadie.",
-        "autoTimer": { "duration": 5000, "target": "director_q6" },
+        "autoTimer": { "duration": 6000, "target": "director_q6" },
         "advanceDays": 30,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
@@ -596,7 +596,7 @@ export const directorScenes = {
         "background": "/assets/fondo_habitacion.png",
         "advanceDays": 365,
         "text": "UN AÑO DESPUÉS. El juego es un éxito global, pero los desafíos técnicos de escala son constantes.",
-        "autoTimer": { "duration": 5000, "target": "director_q7" },
+        "autoTimer": { "duration": 5500, "target": "director_q7" },
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
     },
@@ -651,7 +651,7 @@ export const directorScenes = {
         "id": "director_transition_q8",
         "background": "/assets/fondo_tasa_cafe.png",
         "text": "Meses más tarde... el juego se acerca a su primer aniversario y la presión por un cierre de año espectacular es máxima.",
-        "autoTimer": { "duration": 5000, "target": "director_q8" },
+        "autoTimer": { "duration": 6000, "target": "director_q8" },
         "advanceDays": 60,
         "hidePlayer": true,
         "musicTrack": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
