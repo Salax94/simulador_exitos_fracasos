@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+@theme {
+  --color-game-bg: #FFFFFF;
+  --color-game-accent: #0098CD;
+  --color-game-text: #333333;
+  --color-game-dark: #222222;
+  --color-game-panel: #f8f9fa;
+
+  --font-pixel: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-unir: 0 4px 6px -1px rgb(0 152 205 / 0.1), 0 2px 4px -2px rgb(0 152 205 / 0.1);
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+}
+
+/* Pixel Art UI Components (Retro compatibility and UI) */
+.pixel-box {
+  background: #FFFFFF;
+  border: 4px solid #333333;
+  position: relative;
+  box-shadow:
+    0 4px 0 0 rgba(0, 0, 0, 0.1),
+    4px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.pixel-box::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: -1;
+}
+
+.pixel-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+  right: -4px;
+  background: white;
+  z-index: -1;
+}
+
+.font-pixel {
+  font-family: var(--font-pixel);
+}
+
+.image-pixelated {
+  image-rendering: pixelated;
+}
+
+/* Institutional Hybrid Components */
+.unir-header {
+  border-bottom: 3px solid #0098CD;
+  background: white;
+}
+
+.unir-card {
+  background: #FFFFFF;
+  border: 1px solid #e2e8f0;
+  box-shadow: var(--shadow-unir);
+  transition: all 0.2s ease;
+}
+
+.unir-card.selected {
+  border: 3px solid #0098CD;
+  box-shadow: 0 0 15px rgba(0, 152, 205, 0.3);
+}
+
+/* Pixel Art Hybrid Elements */
+.pixel-button-unir {
+  @apply relative inline-block px-8 py-3 bg-[#0098CD] text-white font-pixel text-[12px] transition-all active:translate-y-1 select-none;
+  box-shadow: 4px 4px 0 0 #006b91;
+  border: 2px solid #000;
+}
+
+.pixel-button-unir:hover {
+  @apply bg-[#0081ad];
+}
+
+.pixel-button-unir:active {
+  box-shadow: 0 0 0 0;
+}
+
+.pixel-border-unir {
+  border: 4px solid #333333;
+  position: relative;
+}
+
+.pixel-border-unir::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  border-left: 4px solid #333333;
+  border-right: 4px solid #333333;
+  pointer-events: none;
+}
+
+/* General Layout */
+.institutional-bg {
+  background-image:
+    radial-gradient(#0098CD 0.5px, transparent 0.5px),
+    radial-gradient(#0098CD 0.5px, #FFFFFF 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  opacity: 0.05;
+}
+
+.layer-bg-unir {
+  z-index: 10;
+}
+
+.layer-content-unir {
+  z-index: 20;
+}
+
+/* Glitch Animations */
+@keyframes glitch-anim {
+  0% {
+    clip-path: inset(40% 0 61% 0);
+    transform: translate(-20px, -10px);
+  }
+
+  10% {
+    clip-path: inset(92% 0 1% 0);
+    transform: translate(20px, 10px);
+  }
+
+  20% {
+    clip-path: inset(25% 0 58% 0);
+    transform: translate(-10px, 5px);
+  }
+
+  30% {
+    clip-path: inset(75% 0 15% 0);
+    transform: translate(10px, -5px);
+  }
+
+  40% {
+    clip-path: inset(10% 0 85% 0);
+    transform: translate(-5px, 10px);
+  }
+
+  50% {
+    clip-path: inset(50% 0 43% 0);
+    transform: translate(5px, -10px);
+  }
+
+  60% {
+    clip-path: inset(15% 0 80% 0);
+    transform: translate(20px, 5px);
+  }
+
+  70% {
+    clip-path: inset(80% 0 15% 0);
+    transform: translate(-20px, -5px);
+  }
+
+  80% {
+    clip-path: inset(45% 0 50% 0);
+    transform: translate(10px, 10px);
+  }
+
+  90% {
+    clip-path: inset(60% 0 35% 0);
+    transform: translate(-10px, -10px);
+  }
+
+  100% {
+    clip-path: inset(40% 0 61% 0);
+    transform: translate(-20px, -10px);
+  }
+}
+
+.glitch-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.glitch-overlay::before,
+.glitch-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.5;
+}
+
+.glitch-overlay::before {
+  left: 2px;
+  text-shadow: -2px 0 #ff00c1;
+  clip-path: inset(45% 0 50% 0);
+  animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+.glitch-overlay::after {
+  left: -2px;
+  text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+  animation: glitch-anim 3s infinite linear alternate-reverse;
+}
+
+/* 3D Transform Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
