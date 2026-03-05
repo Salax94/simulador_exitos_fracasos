@@ -20,9 +20,9 @@
 
 ## 🌟 Sobre el Proyecto
 
-¡Hola colegas de la **UNIR**! 👋 Este juego no es solo un código, es una experiencia diseñada para demostrar cómo la narrativa y la programación se dan la mano. Creado con mucho cariño para compartirlo en el foro, este proyecto es **100% de uso libre**. 
+¡Hola compañeros de la **UNIR**! 👋 Este juego no es solo un código, es una experiencia diseñada para demostrar cómo la narrativa y la programación se dan la mano. Creado con mucho cariño para compartirlo en el foro, este proyecto es **100% de uso libre**. 
 
-¡Cúrrate tu propia versión, rompe el código o úsalo para aprobar esa asignatura que se te resiste! 🚀
+¡Crea tu propia versión, rompe el código o úsalo para lo que quieras! 
 
 ---
 
@@ -69,7 +69,6 @@ Si quieres trastear con el código en tu PC:
 
 <p align="center">
   Hecho con ❤️ para la comunidad de la <b>UNIR</b>.<br>
-  <i>"El código es poesía, pero los bugs son los que nos dan de comer".</i>
 </p>
 
 <p align="center">
