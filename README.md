@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/assets/readme/banner.png" alt="Professional Adventure Game Banner" width="800">
+  <img src="./public/assets/readme/banner.png?v=2" alt="Professional Adventure Game Banner" width="800">
 </p>
 
 # <p align="center">Professional Adventure Game</p>
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="./public/assets/readme/separator.png" alt="Separator" width="600">
+  <img src="./public/assets/readme/separator.png?v=2" alt="Separator" width="600">
 </p>
 
 ## 🌟 Sobre el Proyecto
@@ -37,7 +37,7 @@ Sumérgete en un estudio de videojuegos real y elige tu camino:
 | **🏆 Project Manager** | Jesica | Estrategia, mando y el arte de no quemar al equipo. |
 
 <p align="center">
-  <img src="./public/assets/readme/separator.png" alt="Separator" width="600">
+  <img src="./public/assets/readme/separator.png?v=2" alt="Separator" width="600">
 </p>
 
 ## 🛠️ Stack Tecnológico
@@ -72,5 +72,5 @@ Si quieres trastear con el código en tu PC:
 </p>
 
 <p align="center">
-  <img src="./public/assets/readme/separator.png" alt="Separator" width="300">
+  <img src="./public/assets/readme/separator.png?v=2" alt="Separator" width="300">
 </p>
